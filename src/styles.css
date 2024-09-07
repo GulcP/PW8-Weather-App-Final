@@ -62,10 +62,8 @@ main {
   color: #f65282;
 }
 .current-temperature-icon {
-  position: relative;
-  top: -8px;
-  font-size: 40px;
-  margin-right: 10px;
+  width: 88px;
+  height: 88px;
 }
 .current-temperature-value {
   font-size: 80px;
@@ -95,7 +93,9 @@ footer {
   font-size: 40px;
 }
 .temperature-value {
-  font-size: 80px;
+  font-size: 88px;
+  margin-left: 10px;
+  line-height: 88px;
   font-weight: bold;
 }
 .temparature-unit {
@@ -119,8 +119,8 @@ footer {
 }
 
 .weather-forecast-icon {
-  text-align: center;
-  font-size: 38px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-forecast-temperatures {
